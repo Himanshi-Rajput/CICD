@@ -63,8 +63,8 @@
         <version>3.8.1</version> <!-- Use a compatible version -->
         <configuration>
 			<suiteXmlFiles>
-				<suiteXmlFile>${xmlSuiteFileName}</suiteXmlFile>
-			</suiteXmlFiles>
+               <suiteXmlFile>testng.xml</suiteXmlFile>
+          </suiteXmlFiles>
 			
      <!--     <source>8</source>
           <target>8</target> -->

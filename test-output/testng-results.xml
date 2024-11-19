@@ -2,20 +2,20 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-19T18:38:49 IST" name="Suite" finished-at="2024-11-19T18:39:06 IST" duration-ms="16813">
+  <suite started-at="2024-11-19T21:03:24 IST" name="Suite" finished-at="2024-11-19T21:03:39 IST" duration-ms="14740">
     <groups>
     </groups>
-    <test started-at="2024-11-19T18:38:49 IST" name="Test" finished-at="2024-11-19T18:39:06 IST" duration-ms="16813">
+    <test started-at="2024-11-19T21:03:24 IST" name="Test" finished-at="2024-11-19T21:03:39 IST" duration-ms="14740">
       <class name="jenkins1.jenkins1.One">
-        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:jenkins1.jenkins1.One@4afcd809]" started-at="2024-11-19T18:38:49 IST" name="LaunchBrowser" finished-at="2024-11-19T18:38:58 IST" duration-ms="9320" status="PASS">
+        <test-method is-config="true" signature="LaunchBrowser()[pri:0, instance:jenkins1.jenkins1.One@4afcd809]" started-at="2024-11-19T21:03:24 IST" name="LaunchBrowser" finished-at="2024-11-19T21:03:33 IST" duration-ms="8329" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- LaunchBrowser -->
-        <test-method signature="EnterCustomerID()[pri:0, instance:jenkins1.jenkins1.One@4afcd809]" started-at="2024-11-19T18:38:58 IST" name="EnterCustomerID" finished-at="2024-11-19T18:39:06 IST" duration-ms="7373" status="PASS">
+        <test-method signature="EnterCustomerID()[pri:0, instance:jenkins1.jenkins1.One@4afcd809]" started-at="2024-11-19T21:03:33 IST" name="EnterCustomerID" finished-at="2024-11-19T21:03:39 IST" duration-ms="6367" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- EnterCustomerID -->
-        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:jenkins1.jenkins1.One@4afcd809]" started-at="2024-11-19T18:39:06 IST" name="CloseBrowser" finished-at="2024-11-19T18:39:06 IST" duration-ms="0" status="PASS">
+        <test-method is-config="true" signature="CloseBrowser()[pri:0, instance:jenkins1.jenkins1.One@4afcd809]" started-at="2024-11-19T21:03:39 IST" name="CloseBrowser" finished-at="2024-11-19T21:03:39 IST" duration-ms="0" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- CloseBrowser -->
