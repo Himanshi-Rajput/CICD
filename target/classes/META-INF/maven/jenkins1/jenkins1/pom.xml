@@ -63,7 +63,7 @@
         <version>3.8.1</version> <!-- Use a compatible version -->
         <configuration>
 			<suiteXmlFiles>
-               <suiteXmlFile>testng.xml</suiteXmlFile>
+               <suiteXmlFile>jenkins1/testng.xml</suiteXmlFile>
           </suiteXmlFiles>
 			
      <!--     <source>8</source>
