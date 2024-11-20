@@ -2,6 +2,7 @@ package jenkins1.jenkins1;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -30,7 +31,7 @@ public class One {
     @BeforeTest
     public void LaunchBrowser() {
         //WebDriverManager.chromedriver().setup();
-        driver = new EdgeDriver();
+        driver = new ChromeDriver();
         driver.manage().window().maximize();
         // This will wait for Page to load
         // driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
