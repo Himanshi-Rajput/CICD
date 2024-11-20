@@ -9,6 +9,8 @@ import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 
+import io.github.bonigarcia.wdm.WebDriverManager;
+
 public class One {
 	WebDriver driver;
     // WebDriver driver;
@@ -30,8 +32,8 @@ public class One {
     // Pre-Condition
     @BeforeTest
     public void LaunchBrowser() {
-        //WebDriverManager.chromedriver().setup();
-        driver = new ChromeDriver();
+    	 WebDriverManager.chromedriver().setup();  // Automatically sets up the correct driver
+         driver = new ChromeDriver();
         driver.manage().window().maximize();
         // This will wait for Page to load
         // driver.get("https://opensource-demo.orangehrmlive.com/index.php/auth/login");
