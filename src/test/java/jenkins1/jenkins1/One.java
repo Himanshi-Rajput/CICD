@@ -3,7 +3,6 @@ package jenkins1.jenkins1;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
-import org.openqa.selenium.edge.EdgeDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
@@ -13,7 +12,6 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 public class One {
 	WebDriver driver;
-    // WebDriver driver;
 
     @Test
     public void EnterCustomerID() throws InterruptedException {
@@ -46,7 +44,7 @@ public class One {
     // Post Condition
     @AfterTest
     public void CloseBrowser() {
-        //driver.quit();
+        driver.quit();
     }
 
 }
